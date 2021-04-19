@@ -13,6 +13,8 @@ To train from scratch using SVHN training dataset, execute run.py as the followi
 python run.py -f [training-images-directory]
 ```
 
+**Note of caution**: training on different devices may lead to different outcomes for the training images. Please use the pretrained models for grading purposes.
+
 Training images directory is the train.tar.gz dataset from http://ufldl.stanford.edu/housenumbers/. By default, the code looks for ```train``` directory in the current directory.
 
 Execute run.py with ``` -h ``` option for more options for testing.
