@@ -5,7 +5,7 @@ To get grading images using trained models, execute run.py from the command line
 ```
 python run.py -c
 ```
-The grading images will be found in the ```graded_images``` directory. Please ensure you have the ```test_input``` folder containing the grading images. By default, this will also create the bad examples in a separate directory.
+The grading images will be found in the ```graded_images``` directory. Please ensure you have the ```test_input``` folder containing the grading images. By default, this will also create the bad examples and VGG16 model outputs in separate directories.
 
 To train from scratch using SVHN training dataset, execute run.py as the following (about 2.2 hour runtime):
 
