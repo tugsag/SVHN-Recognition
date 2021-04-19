@@ -1,3 +1,5 @@
+Classification of digits using SVHN dataset using CNN
+
 To get grading images using trained models, execute run.py from the command line like the following:
 
 ```
